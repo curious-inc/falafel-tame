@@ -30,9 +30,6 @@ module.exports = function (src, opts, fn) {
     if (typeof src !== 'string') src = String(src);
     
     var ast = parse(src, opts);
-
-    console.dir(ast);
-    console.log("block: ", ast.body[0].source());
     
     var result = {
         chunks : src.split(''),
