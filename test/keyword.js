@@ -1,7 +1,6 @@
 var falafel = require('../');
 var test = require('tape');
 
-/*
 test('custom keyword', function (t) {
     t.plan(2);
     
@@ -24,6 +23,7 @@ test('custom keyword', function (t) {
     Function('t', output)(t);
 });
 
+/*
 test('block keyword', function (t) {
     t.plan(4);
     
