@@ -49,6 +49,9 @@ output:
 
 ## custom keyword
 
+### *This feature is currently broken with the new parser. I tried to fix it but the version of esprima that falafel uses is a patched version, of a development version. We're using version 2.0-dev, and we'll get it stable as soon as we can. If someone wants to fix this issue, that'd be great.*
+
+
 Creating custom keywords is super simple!
 
 This example creates a new `beep` keyword that uppercases its arguments:
