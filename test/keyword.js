@@ -23,7 +23,6 @@ test('custom keyword', function (t) {
     Function('t', output)(t);
 });
 
-/*
 test('block keyword', function (t) {
     t.plan(4);
     
@@ -63,4 +62,3 @@ test('block keyword', function (t) {
         return xs.map(function (x) { return x.source() }).join('');
     }
 });
-*/
