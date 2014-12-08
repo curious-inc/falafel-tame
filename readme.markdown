@@ -49,7 +49,7 @@ output:
 
 ## custom keyword
 
-### *This feature is currently broken with the new parser. I tried to fix it but the version of esprima that falafel uses is a patched version, of a development version. We're using version 2.0-dev, and we'll get it stable as soon as we can. If someone wants to fix this issue, that'd be great.*
+### *The "blocks" version of this feature is currently broken with the new parser. upstream uses a very old verison of esprima, so I can't just bring over the patches. I did fix it so that it works as described below.*
 
 
 Creating custom keywords is super simple!
